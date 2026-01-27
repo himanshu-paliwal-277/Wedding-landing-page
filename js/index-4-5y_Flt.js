@@ -13556,7 +13556,7 @@ const Xh = [
                     className: "grid md:grid-cols-2 gap-4 mb-10",
                     children: [
                       d.jsxs("a", {
-                        href: "https://maps.apple/p/woY6YzD8o623w8",
+                        href: "https://maps.apple.com/?ll=26.2525656,78.1504443&q=7%20Hills%20Resort",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className:
@@ -13567,7 +13567,7 @@ const Xh = [
                         ],
                       }),
                       d.jsxs("a", {
-                        href: "https://maps.app.goo.gl/ZwcJ53f9B6vrvTsB7",
+                        href: "https://www.google.com/maps/place/7+Hills+Resort/@26.2525656,78.1478694,17z/data=!4m10!3m9!1s0x3976c7ce5b12b4c1:0xf4fee1228da56941!5m3!1s2026-02-14!4m1!1i2!8m2!3d26.2525656!4d78.1504443!16s%2Fg%2F11vks5v5sz?coh=277533&entry=tts&g_ep=EgoyMDI2MDEyMS4wIPu8ASoKLDEwMDc5MjA2N0gBUAM%3D&skid=0a98626d-a8f6-4403-ace0-85f6d08f1f14",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className:
@@ -13588,7 +13588,7 @@ const Xh = [
                     className: "grid md:grid-cols-2 gap-4",
                     children: [
                       d.jsxs("a", {
-                        href: "https://maps.apple/p/z.F8ZPdE3gnVGZ",
+                        href: "https://maps.apple.com/?ll=26.214379,78.175018&q=Durga%20Vishnu%20Nivas",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className:
@@ -13599,7 +13599,7 @@ const Xh = [
                         ],
                       }),
                       d.jsxs("a", {
-                        href: "https://maps.app.goo.gl/4tEU3xha5LA8m6mJA",
+                        href: "https://www.google.com/maps/place/Durga+Vishnu+Nivas/@26.2146774,78.1739031,376m/data=!3m1!1e3!4m6!3m5!1s0x3976c69e16b17915:0x304e2c92c027f05b!8m2!3d26.214379!4d78.175018!16s%2Fg%2F12hnkx1tp?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className:
