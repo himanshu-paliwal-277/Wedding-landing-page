@@ -12919,7 +12919,7 @@ const Xh = [
                 children: "×",
               }),
               d.jsx("img", {
-                src: Ol,
+                src: `../images/family_images/${Ol}`,
                 alt: "Full size",
                 className:
                   "max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl",
@@ -12981,7 +12981,7 @@ const Xh = [
               children: [
                 d.jsx("div", {
                   className:
-                    "text-2xl font-bold bg-gradient-to-r from-rose-500 to-purple-600 bg-clip-text text-transparent",
+                    "sm:text-2xl text-xl font-bold bg-gradient-to-r from-rose-500 to-purple-600 bg-clip-text text-transparent",
                   children: "#GauranshiKiWedding",
                 }),
                 d.jsx("div", {
@@ -13014,18 +13014,17 @@ const Xh = [
             v &&
               d.jsx("div", {
                 className: "md:hidden bg-white border-t animate-fadeIn",
-                children: ["home", "events", "moments", "location"].map(
-                  (N) =>
-                    d.jsx(
-                      "button",
-                      {
-                        onClick: () => Al(N),
-                        className:
-                          "block w-full text-left px-4 py-3 hover:bg-rose-50 capitalize transition-colors",
-                        children: N,
-                      },
-                      N,
-                    ),
+                children: ["home", "events", "moments", "location"].map((N) =>
+                  d.jsx(
+                    "button",
+                    {
+                      onClick: () => Al(N),
+                      className:
+                        "block w-full text-left px-4 py-3 hover:bg-rose-50 capitalize transition-colors",
+                      children: N,
+                    },
+                    N,
+                  ),
                 ),
               }),
           ],
@@ -13069,11 +13068,11 @@ const Xh = [
                       "div",
                       {
                         className:
-                          "bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl transform hover:scale-105 transition-transform duration-300",
+                          "bg-white/80 backdrop-blur-sm rounded-2xl sm:p-6 p-2 shadow-xl transform hover:scale-105 transition-transform duration-300",
                         children: [
                           d.jsx("div", {
                             className:
-                              "text-4xl md:text-5xl font-bold text-rose-600",
+                              "text-2xl sm:text-4xl md:text-5xl font-bold text-rose-600",
                             children: al || 0,
                           }),
                           d.jsx("div", {
@@ -13123,7 +13122,7 @@ const Xh = [
                 children: [
                   d.jsxs("div", {
                     className:
-                      "group bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 hover:bg-white transform hover:scale-[1.02] hover:-translate-y-2 animate-slideInUp flex items-center gap-6 cursor-pointer",
+                      "group bg-white/80 backdrop-blur-sm rounded-2xl sm:p-6 p-4  shadow-xl hover:shadow-2xl transition-all duration-500 hover:bg-white transform hover:scale-[1.02] hover:-translate-y-2 animate-slideInUp flex items-center gap-6 cursor-pointer",
                     children: [
                       d.jsxs("div", {
                         className:
@@ -13151,7 +13150,7 @@ const Xh = [
                         children: [
                           d.jsx("h3", {
                             className:
-                              "text-3xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300",
+                              "sm:text-3xl text-xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300",
                             children: "Priyanshi👸",
                           }),
                           d.jsx("p", {
@@ -13210,7 +13209,7 @@ const Xh = [
                   }),
                   d.jsxs("div", {
                     className:
-                      "group bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 hover:bg-white transform hover:scale-[1.02] hover:-translate-y-2 animate-slideInUp flex items-center gap-6 cursor-pointer",
+                      "group bg-white/80 backdrop-blur-sm rounded-2xl sm:p-6 p-4  shadow-xl hover:shadow-2xl transition-all duration-500 hover:bg-white transform hover:scale-[1.02] hover:-translate-y-2 animate-slideInUp flex items-center gap-6 cursor-pointer",
                     children: [
                       d.jsxs("div", {
                         className:
@@ -13238,7 +13237,7 @@ const Xh = [
                         children: [
                           d.jsx("h3", {
                             className:
-                              "text-3xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300",
+                              "sm:text-3xl text-xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300",
                             children: "Gaurav 👑",
                           }),
                           d.jsx("p", {
@@ -13460,17 +13459,17 @@ const Xh = [
               }),
               d.jsx("div", {
                 className: "grid grid-cols-2 md:grid-cols-3 gap-4 mb-12",
-                children: [1, 2, 3, 4, 5, 6].map((N) =>
+                children: [1, 2, 3, 4, 5, 6, 7, 8, 9].map((N) =>
                   d.jsxs(
                     "div",
                     {
                       className:
                         "group aspect-square bg-gradient-to-br from-rose-200 to-purple-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-110 hover:-rotate-3 animate-fadeInUp flex items-center justify-center cursor-pointer overflow-hidden relative",
                       style: { animationDelay: `${N * 0.1}s` },
-                      onClick: () => Gl(`photo${N}.jpg`),
+                      onClick: () => Gl(`image${N}.jpeg`),
                       children: [
                         d.jsx("img", {
-                          src: `photo${N}.jpg`,
+                          src: `../images/family_images/image${N}.jpeg`,
                           alt: `Photo ${N}`,
                           className: "w-full h-full object-cover",
                           onError: (al) => {
@@ -13508,8 +13507,8 @@ const Xh = [
               d.jsx("div", {
                 className: "text-center",
                 children: d.jsx("a", {
-                  href: "https://your-link-here.com",
-                  target: "_blank",
+                  // href: "https://your-link-here.com",
+                  // target: "_blank",
                   rel: "noopener noreferrer",
                   className: "block",
                   children: d.jsxs("button", {
