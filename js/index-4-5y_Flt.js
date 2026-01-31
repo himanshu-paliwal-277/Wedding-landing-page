@@ -13459,7 +13459,7 @@ const Xh = [
               }),
               d.jsx("div", {
                 className: "grid grid-cols-2 md:grid-cols-3 gap-4 mb-12",
-                children: [1, 2, 3, 4, 5, 6, 7, 8, 9].map((N) =>
+                children: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((N) =>
                   d.jsxs(
                     "div",
                     {
