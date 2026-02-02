@@ -12848,7 +12848,7 @@ const Xh = [
         {
           date: "February 13, 2026",
           time: "01:30 PM Onwards",
-          name: "Tilak Ceremony",
+          name: "Mehndi Ceremony",
           description: "A traditional ritual seeking blessings from elders.",
           image: "tilak.jpg",
           venue: "52, Laxmi bai colony",
@@ -12856,15 +12856,15 @@ const Xh = [
         {
           date: "February 14, 2026",
           time: "12:00 PM to 4:00 PM",
-          name: "Haldi & Lagun Ceremony",
+          name: "Haldi, Lagun & Sagai Ceremony",
           description: "A sacred ritual filled with blessings and happiness.",
           image: "haldi.jpg",
           venue: "7 hills resort",
         },
         {
           date: "February 14, 2026",
-          time: "10:00 PM Onwards",
-          name: "Sangeet & Engagement",
+          time: "7:00 PM Onwards",
+          name: "Sangeet, Engagement & Reception",
           description: "An evening of music, dance, and joyful celebrations.",
           image: "sangeet.jpg",
           venue: "7 hills resort",
@@ -13675,7 +13675,8 @@ const Xh = [
                     children: [
                       d.jsx("h4", {
                         className: "text-2xl font-semibold mb-2",
-                        children: "Priyanshi Agarwal",
+                        // children: "Priyanshi Agarwal",
+                        children: "Priyanshi",
                       }),
                       /*
                       Priyanshi Agarwal
@@ -13691,11 +13692,13 @@ const Xh = [
                       }),
                       d.jsx("p", {
                         className: "text-white/90",
-                        children: "Brother of Mr. Archit Agarwal",
+                        // children: "Brother of Mr. Archit Agarwal",
+                        children: "Brother of Mr. Archit",
                       }),
                       d.jsx("p", {
                         className: "text-white/80 text-sm mt-2",
-                        children: "(Sister-in-law: Mrs. Sweety Agarwal)",
+                        // children: "(Sister-in-law: Mrs. Sweety Agarwal)",
+                        children: "(Sister-in-law: Mrs. Sweety)",
                       }),
                       d.jsx("p", {
                         className: "text-white/80 text-sm mt-2",
@@ -13709,12 +13712,14 @@ const Xh = [
                     children: [
                       d.jsx("h4", {
                         className: "text-2xl font-semibold mb-2",
-                        children: "Gaurav Verma",
+                        // children: "Gaurav Verma",
+                        children: "Gaurav",
                       }),
                       d.jsx("p", {
                         className: "text-white/100",
                         children:
-                          "Son of Mr. Atma Ram Verma & Mrs. Santosh Verma",
+                          // "Son of Mr. Atma Ram Verma & Mrs. Santosh Verma",
+                          "Son of Mr. Atma Ram & Mrs. Santosh",
                       }),
                       d.jsx("p", {
                         className: "text-white/90",
