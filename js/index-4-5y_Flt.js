@@ -12850,7 +12850,7 @@ const Xh = [
           time: "01:30 PM Onwards",
           name: "Mehndi Ceremony",
           description: "A traditional ritual seeking blessings from elders.",
-          image: "tilak.jpg",
+          image: "../images/eventImages/mehandi.png",
           venue: "52, Laxmi bai colony",
         },
         {
@@ -12858,7 +12858,7 @@ const Xh = [
           time: "12:00 PM to 4:00 PM",
           name: "Haldi, Lagun & Sagai Ceremony",
           description: "A sacred ritual filled with blessings and happiness.",
-          image: "haldi.jpg",
+          image: "../images/eventImages/haldi.png",
           venue: "7 hills resort",
         },
         {
@@ -12866,17 +12866,17 @@ const Xh = [
           time: "7:00 PM Onwards",
           name: "Sangeet, Engagement & Reception",
           description: "An evening of music, dance, and joyful celebrations.",
-          image: "sangeet.jpg",
+          image: "../images/eventImages/sangeet.png",
           venue: "7 hills resort",
         },
 
         {
           date: "February 15, 2026",
           time: "11:00 AM Onwards",
-          name: "Barat Procession",
+          name: "Baraat Procession",
           description:
             "The grand arrival of the groom with family and friends.",
-          image: "barat.jpg",
+          image: "../images/eventImages/baraat.png",
           venue: "7 hills resort",
         },
         {
@@ -12885,7 +12885,7 @@ const Xh = [
           name: "Jaimala, Phere & vidai",
           description:
             "A sacred ceremony marked by the exchange of garlands and wedding vows.",
-          image: "mandap.jpg",
+          image: "../images/eventImages/phere.png",
           venue: "7 hills resort",
         },
       ],
@@ -13130,7 +13130,7 @@ const Xh = [
                         onClick: () => Gl("bride-photo.jpg"),
                         children: [
                           d.jsx("img", {
-                            src: "bride-photo.jpg",
+                            src: "../images/priyanshi.png",
                             alt: "Priyanshi",
                             className: "w-full h-full object-cover",
                             onError: (N) => {
@@ -13217,7 +13217,7 @@ const Xh = [
                         onClick: () => Gl("groom-photo.jpg"),
                         children: [
                           d.jsx("img", {
-                            src: "groom-photo.jpg",
+                            src: "../images/gaurav.png",
                             alt: "Gaurav",
                             className: "w-full h-full object-cover",
                             onError: (N) => {
