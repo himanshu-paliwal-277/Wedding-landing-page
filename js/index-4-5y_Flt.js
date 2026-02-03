@@ -12919,7 +12919,7 @@ const Xh = [
                 children: "×",
               }),
               d.jsx("img", {
-                src: `../images/family_images/${Ol}`,
+                src: Ol.startsWith("../") ? Ol : `../images/family_images/${Ol}`,
                 alt: "Full size",
                 className:
                   "max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl",
@@ -13127,7 +13127,7 @@ const Xh = [
                       d.jsxs("div", {
                         className:
                           "w-32 h-32 flex-shrink-0 rounded-2xl bg-gradient-to-br from-rose-300 to-pink-400 flex items-center justify-center overflow-hidden shadow-lg transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 cursor-pointer",
-                        onClick: () => Gl("bride-photo.jpg"),
+                        onClick: () => Gl("../images/priyanshi.png"),
                         children: [
                           d.jsx("img", {
                             src: "../images/priyanshi.png",
@@ -13214,7 +13214,7 @@ const Xh = [
                       d.jsxs("div", {
                         className:
                           "w-32 h-32 flex-shrink-0 rounded-2xl bg-gradient-to-br from-rose-300 to-pink-400 flex items-center justify-center overflow-hidden shadow-lg transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 cursor-pointer",
-                        onClick: () => Gl("groom-photo.jpg"),
+                        onClick: () => Gl("../images/gaurav.png"),
                         children: [
                           d.jsx("img", {
                             src: "../images/gaurav.png",
