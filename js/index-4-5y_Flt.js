@@ -13459,17 +13459,17 @@ const Xh = [
               }),
               d.jsx("div", {
                 className: "grid grid-cols-2 md:grid-cols-3 gap-4 mb-12",
-                children: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((N) =>
+                children: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((N) =>
                   d.jsxs(
                     "div",
                     {
                       className:
                         "group aspect-square bg-gradient-to-br from-rose-200 to-purple-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-110 hover:-rotate-3 animate-fadeInUp flex items-center justify-center cursor-pointer overflow-hidden relative",
                       style: { animationDelay: `${N * 0.1}s` },
-                      onClick: () => Gl(`image${N}.jpeg`),
+                      onClick: () => Gl(`${N}.png`),
                       children: [
                         d.jsx("img", {
-                          src: `../images/family_images/image${N}.jpeg`,
+                          src: `../images/family_images/${N}.png`,
                           alt: `Photo ${N}`,
                           className: "w-full h-full object-cover",
                           onError: (al) => {
