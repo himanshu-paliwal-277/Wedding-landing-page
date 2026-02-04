@@ -12919,7 +12919,9 @@ const Xh = [
                 children: "×",
               }),
               d.jsx("img", {
-                src: Ol.startsWith("../") ? Ol : `../images/family_images/${Ol}`,
+                src: Ol.startsWith("../")
+                  ? Ol
+                  : `../images/family_images/${Ol}`,
                 alt: "Full size",
                 className:
                   "max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl",
@@ -13426,18 +13428,22 @@ const Xh = [
                   }),
                   d.jsxs("div", {
                     className:
-                      "bg-white rounded-3xl p-8 shadow-2xl max-w-4xl mx-auto",
+                      "bg-white rounded-3xl sm:p-8 p-4 shadow-2xl max-w-4xl mx-auto",
                     children: [
                       d.jsx("div", {
                         className:
-                          "aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-rose-100 to-purple-100 border-4 border-rose-200 shadow-lg mb-4",
+                          "sm:aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-rose-100 to-purple-100 border-4 border-rose-200 shadow-lg mb-4",
                         children: d.jsxs("video", {
-                          controls: !0,
+                          controls: true,
+                          autoPlay: true,
+                          muted: true,
+                          loop: true, // optional
+                          playsInline: true, // recommended for mobile
                           className: "w-full h-full",
                           poster: "video-thumbnail.jpg",
                           children: [
                             d.jsx("source", {
-                              src: "wedding-invite-video.mp4",
+                              src: "../images/invitationVideo.mp4",
                               type: "video/mp4",
                             }),
                             "Your browser does not support the video tag.",
