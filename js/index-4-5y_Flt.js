@@ -13440,6 +13440,7 @@ const Xh = [
                           loop: true, // optional
                           playsInline: true, // recommended for mobile
                           className: "w-full h-full",
+                          style: { height: "464px" },
                           poster: "video-thumbnail.jpg",
                           children: [
                             d.jsx("source", {
