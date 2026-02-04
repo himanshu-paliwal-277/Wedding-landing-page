@@ -13700,7 +13700,7 @@ const Xh = [
                       d.jsx("p", {
                         className: "text-white/90",
                         // children: "Brother of Mr. Archit Agarwal",
-                        children: "Brother of Mr. Archit",
+                        children: "Sister of Mr. Archit",
                       }),
                       d.jsx("p", {
                         className: "text-white/80 text-sm mt-2",
@@ -13766,7 +13766,7 @@ const Xh = [
                     className: "flex justify-center gap-6 mb-6",
                     children: [
                       d.jsx("a", {
-                        href: "tel:7440899105",
+                        href: "tel:7999744435",
                         className:
                           "p-3 bg-white/20 rounded-full hover:bg-white/30 transition-all transform hover:scale-110",
                         children: d.jsx(Yh, { className: "w-5 h-5" }),
