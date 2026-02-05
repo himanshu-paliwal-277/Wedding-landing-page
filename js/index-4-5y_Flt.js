@@ -13730,7 +13730,7 @@ const Xh = [
                       }),
                       d.jsx("p", {
                         className: "text-white/90",
-                        children: "Brother of Mrs. Komal & Susheela",
+                        children: "Brother of Mrs. Komal & sushila",
                       }),
                       d.jsx("p", {
                         className: "text-white/90",
